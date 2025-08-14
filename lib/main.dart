@@ -45,7 +45,8 @@ class _HomePageState extends State<HomePage> {
       resultado = 'Pesquisando...';
     });
 
-    final baseUrl = 'https://produtonetcoreapi-a3h3apdvdgfbaeg0.brazilsouth-01.azurewebsites.net/Produto';
+    final baseUrl = 'coloque seu link aqui junto do sufixo a seguir /Produto';
+    // Exemplo de base Url : https://api123.net/Produto
     final url = (codigoProduto != null && codigoProduto.isNotEmpty)
         ? Uri.parse('$baseUrl?id=$codigoProduto')
         : Uri.parse(baseUrl);
