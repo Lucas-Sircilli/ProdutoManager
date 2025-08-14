@@ -25,7 +25,7 @@ cd ProdutoManager
 # Instalar dependências
 flutter pub get
 
-# Configurar URL da API (editar lib/main.dart e atualizar para a UrlBase que foi encaminhada no email)
+# Configurar URL da API (editar lib/main.dart e atualizar para a UrlBase que foi encaminhada no email OU atualizar para a url que está sendo usada durante a execução da API localmente)
 # Endereços padrão:
 # - https://localhost:7055
 # - http://localhost:5055
