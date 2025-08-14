@@ -96,8 +96,8 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _buscarProdutoParaAtualizar(String id) async {
     final url =
-        'https://produtonetcoreapi-a3h3apdvdgfbaeg0.brazilsouth-01.azurewebsites.net/Produto?id=$id';
-
+        'coloque seu link aqui junto do sufixo a seguir /Produto?id=$id';
+    // Exemplo de Url : https://api123.net/Produto?id=$id
     try {
       final response = await http.get(Uri.parse(url));
 
@@ -130,8 +130,9 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> _deletarProduto(String id) async {
-    final url = 'https://produtonetcoreapi-a3h3apdvdgfbaeg0.brazilsouth-01.azurewebsites.net/Produto/$id';
-
+    final url = 'coloque seu link aqui junto do sufixo a seguir /Produto/$id';
+    // Exemplo de Url : https://api123.net/Produto/$id
+    
     try {
       final response = await http.delete(Uri.parse(url));
 
