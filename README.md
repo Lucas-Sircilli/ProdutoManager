@@ -25,11 +25,14 @@ cd ProdutoManager
 # Instalar dependências
 flutter pub get
 
-# Configurar URL da API (editar lib/config/api_config.dart)
+# Configurar URL da API (editar lib/main.dart)
 # Endereços padrão:
 # - https://localhost:7055
 # - http://localhost:5055
-# const String apiBaseUrl = "colocar um dos endereços acima";
+# Substituir as atribuições das variáveis a seguir:
+# url -> método _buscarProdutoParaAtualizar
+# baseUrl -> método fazerPesquisa
+# url -> método _deletarProduto
 
 # Rodar o app
 flutter run
