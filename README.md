@@ -1,16 +1,46 @@
-# produtoflutter
+# Produto Manager - Frontend
 
-A new Flutter project.
+- **Frontend (ProdutoManager)**: Aplicação Flutter para consumir a API e permitir a interação do usuário.
 
-## Getting Started
+## 📋 Pré-requisitos
 
-This project is a starting point for a Flutter application.
+### Frontend
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (versão mais recente)
+- [Dart SDK](https://dart.dev/get-dart) (já incluso no Flutter)
+- [Android Studio](https://developer.android.com/studio) ou VS Code com extensões Flutter/Dart
+- Emulador Android ou dispositivo físico conectado
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Configuração e Execução
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1️⃣ Clonar repositórios
+```bash
+git clone https://github.com/Lucas-Sircilli/ProdutoManager.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2️⃣ Frontend - ProdutoManager
+```bash
+# Acessar pasta
+cd ProdutoManager
+
+# Instalar dependências
+flutter pub get
+
+# Configurar URL da API (editar lib/config/api_config.dart)
+# Endereços padrão:
+# - https://localhost:7055
+# - http://localhost:5055
+# const String apiBaseUrl = "colocar um dos endereços acima";
+
+# Rodar o app
+flutter run
+```
+
+## 📱 Funcionalidades do Frontend
+- Listagem de produtos
+- Cadastro de novos produtos
+- Edição de produtos
+- Exclusão de produtos
+- Interface responsiva
+
+## 📄 Licença
+Este projeto está sob a licença MIT.
